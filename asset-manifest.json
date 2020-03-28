@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/where-is-waldo/static/css/main.15e04334.chunk.css",
+    "main.css": "/where-is-waldo/static/css/main.62caaf01.chunk.css",
     "main.js": "/where-is-waldo/static/js/main.b3b90df3.chunk.js",
     "main.js.map": "/where-is-waldo/static/js/main.b3b90df3.chunk.js.map",
     "runtime-main.js": "/where-is-waldo/static/js/runtime-main.cb8a3afc.js",
     "runtime-main.js.map": "/where-is-waldo/static/js/runtime-main.cb8a3afc.js.map",
-    "static/js/2.b0c38a7c.chunk.js": "/where-is-waldo/static/js/2.b0c38a7c.chunk.js",
-    "static/js/2.b0c38a7c.chunk.js.map": "/where-is-waldo/static/js/2.b0c38a7c.chunk.js.map",
+    "static/js/2.904409be.chunk.js": "/where-is-waldo/static/js/2.904409be.chunk.js",
+    "static/js/2.904409be.chunk.js.map": "/where-is-waldo/static/js/2.904409be.chunk.js.map",
     "index.html": "/where-is-waldo/index.html",
-    "precache-manifest.5441793f6defa0c2e83424dc60eccbaf.js": "/where-is-waldo/precache-manifest.5441793f6defa0c2e83424dc60eccbaf.js",
+    "precache-manifest.6c93c98143c6bd4a7a09b596a1805417.js": "/where-is-waldo/precache-manifest.6c93c98143c6bd4a7a09b596a1805417.js",
     "service-worker.js": "/where-is-waldo/service-worker.js",
-    "static/css/main.15e04334.chunk.css.map": "/where-is-waldo/static/css/main.15e04334.chunk.css.map",
-    "static/js/2.b0c38a7c.chunk.js.LICENSE.txt": "/where-is-waldo/static/js/2.b0c38a7c.chunk.js.LICENSE.txt"
+    "static/css/main.62caaf01.chunk.css.map": "/where-is-waldo/static/css/main.62caaf01.chunk.css.map",
+    "static/js/2.904409be.chunk.js.LICENSE.txt": "/where-is-waldo/static/js/2.904409be.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cb8a3afc.js",
-    "static/js/2.b0c38a7c.chunk.js",
-    "static/css/main.15e04334.chunk.css",
+    "static/js/2.904409be.chunk.js",
+    "static/css/main.62caaf01.chunk.css",
     "static/js/main.b3b90df3.chunk.js"
   ]
 }
