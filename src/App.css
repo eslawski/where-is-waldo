@@ -34,8 +34,16 @@ body {
 
 .demo-info {
   height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
-  margin-bottom: 5px;
+
+}
+
+.waldo {
+  margin-left: 15px;
+  height: 70%;
+  object-fit: contain;
 }
