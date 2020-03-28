@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -43,11 +43,12 @@ body {
 }
 
 h1 {
-
+  font-weight: bold;
 }
 
 .waldo {
-  margin-right: 15px;
+  position: absolute;
+  left: 15px;
   height: 70%;
   object-fit: contain;
 }
