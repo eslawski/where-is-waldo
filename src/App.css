@@ -33,9 +33,12 @@ body {
 /*}*/
 
 .demo-info {
-  height: 100px;
+  height: 75px;
+  width: 100%;
   display: flex;
   align-items: center;
+  position: relative;
+  justify-content: center;
 }
 
 h1 {
@@ -46,4 +49,21 @@ h1 {
   margin-left: 15px;
   height: 70%;
   object-fit: contain;
+}
+
+.github {
+  height: 40%;
+  position: absolute;
+  right: 10px;
+}
+
+.github img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.title {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
