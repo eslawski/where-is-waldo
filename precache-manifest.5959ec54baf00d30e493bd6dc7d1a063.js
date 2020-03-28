@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a761861f298277a09ab1b62428ed07b",
+    "revision": "072edaefa310d10e7f8487aaf245d95e",
     "url": "/where-is-waldo/index.html"
   },
   {
