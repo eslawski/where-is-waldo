@@ -2,12 +2,13 @@ import React from 'react';
 import './App.css';
 
 import { MultiViewer } from "react-iiif-viewer"
+import Information from "./Information"
 
 function App() {
 
     // IIIF urls for the images stored in /images
     const waldos = {
-        waldo_8: "https://free.iiifhosting.com/iiif/6b97f7abc5f6e3bc63cbabb7e4f1c8f40521c2c2deb1a0820ee312f9e51c298/info.json",
+        waldo_8: "http://free.iiifhosting.com/iiif/ac99696d6ab99287a9355715ff3fe410658f924f0fc374708240bfeecb65780d/info.json",
         waldo_1: "https://free.iiifhosting.com/iiif/361e604c0f966fb96c218cc288d4859d4acfa2ff427282e837255c9820b76007/info.json",
         waldo_12: "https://free.iiifhosting.com/iiif/4af2632397f258be27a6671fbc1d1855c709a5b9e279f5ddf3dce4e0787bcde4/info.json",
         waldo_13: "https://free.iiifhosting.com/iiif/9f76cd22ec64985ae8c75887b72cbed0c26bdca78ef7fb79503e488055d1cd01/info.json",
@@ -25,11 +26,14 @@ function App() {
     }
 
   return (
-      <MultiViewer
-          height="100%"
-          width="100%"
-          iiifUrls={Object.values(waldos)}
-      />
+      <>
+          <Information />
+          <MultiViewer
+              height="100%"
+              width="100%"
+              iiifUrls={Object.values(waldos)}
+          />
+      </>
   );
 }
 

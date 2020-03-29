@@ -1,0 +1,73 @@
+.info-icon {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  bottom: 60px;
+  right: 10px;
+  z-index: 10000;
+  cursor: pointer;
+}
+
+
+.info-modal {
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px 30px 50px;
+  z-index: 1000;
+  background-color: black;
+  color: white;
+  background-color: rgba(0,0,0,0.85);
+  width: 500px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .info-modal {
+    width: 80vw !important;
+    padding: 10px 30px 30px 30px;
+  }
+}
+
+.info-modal.open {
+  display: flex
+}
+
+h1 {
+  margin-top: 5px;
+}
+
+.instructions {
+  font-size: 20px;
+}
+
+.wally-and-friends {
+  width: 50%;
+  object-fit: contain;
+}
+
+.close-modal {
+  background-color: rgb(228,55,45);
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 2px;
+  padding: 3px 5px 3px 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.close-modal:hover {
+  background-color: white;
+  color: rgb(228,55,45);
+}
+
+small {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}

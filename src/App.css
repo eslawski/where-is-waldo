@@ -1,13 +1,17 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-    height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Comic Neue', cursive;
+  height: 100%;
+  width: 100%;
 }
 
 html {
   height: 100%;
-  position: fixed;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+
 }
 
 .demo-wrapper {
@@ -17,7 +21,6 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*margin: auto;*/
 }
 
 #root {
@@ -67,4 +70,14 @@ h1 {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.info {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  bottom: 60px;
+  right: 10px;
+  z-index: 10000;
+  cursor: pointer;
 }
