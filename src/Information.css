@@ -16,8 +16,7 @@
   padding: 10px 50px 30px 50px;
   z-index: 1000;
   background-color: black;
-  color: white;
-  background-color: rgba(0,0,0,0.85);
+  background-color: rgba(255,255,255,0.9);
   width: 500px;
   top: 40%;
   left: 50%;
@@ -43,6 +42,7 @@ h1 {
 
 .instructions {
   font-size: 20px;
+  font-weight: bold;
 }
 
 .wally-and-friends {
